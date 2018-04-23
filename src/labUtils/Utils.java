@@ -7,7 +7,7 @@ import treeInterfaces.Tree;
 
 public class Utils {
 	public static <E> void displayTree(String msg, Tree<E> t) { 
-		System.out.println("\n\n" + msg); 
+		System.out.println("\n" + msg); 
 		t.display(); 
 	}
 
